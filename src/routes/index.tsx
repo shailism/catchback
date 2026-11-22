@@ -25,7 +25,7 @@ function Home() {
       <div className="coast-shade" />
       <div className="relative z-10">
         <div className="flex items-center justify-between"><Link to="/" className="brand"><Fish className="size-7" />CatchBack<span className="brand-dot">.</span></Link><Button asChild variant="ghost" size="icon" className="hero-icon"><Link to="/reminders" aria-label="Seasonal reminders"><Bell /></Link></Button></div>
-        <div className="hero-copy"><p className="eyebrow text-on-ocean-muted">Your private fishing journal</p><h1>Closer to the water.</h1><p className="mt-2 text-sm text-on-ocean-muted">Save the catch. Remember the moment.</p></div>
+        <div className="hero-copy"><p className="eyebrow text-on-ocean-muted">Your private fishing journal</p><h1>Closer to the water!</h1><p className="mt-2 text-sm text-on-ocean-muted">Save the catch. Remember the moment.</p></div>
         <Button asChild className="hero-add"><Link to="/add"><Plus />Add Catch</Link></Button>
       </div>
     </header>
